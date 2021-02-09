@@ -1,0 +1,7 @@
+{
+		"name": "afeefa/afeefa-components-version",
+		"version": "0.0.0",
+    "require-dev": {
+        "afeefa/package-manager": "^0.0.8"
+    }
+}
