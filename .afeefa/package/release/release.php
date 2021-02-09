@@ -7,9 +7,6 @@ use Webmozart\PathUtil\Path;
 return (new ReleaseManager())
     ->packages([
         Package::composer()
-            ->path(getcwd()),
-
-        Package::composer()
             ->path(Path::join(getcwd(), '..', 'cli-app')),
 
         Package::composer()
