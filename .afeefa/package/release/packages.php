@@ -14,5 +14,8 @@ return [
         ->path(Path::join(getcwd(), '..', 'php-settings')),
 
     Package::composer()
+        ->path(Path::join(getcwd(), '..', 'php-testing-utils')),
+
+    Package::composer()
         ->path(Path::join(getcwd(), '..', 'package-manager'))
 ];
