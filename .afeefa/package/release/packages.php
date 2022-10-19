@@ -11,5 +11,8 @@ return [
         ->path(Path::join(getcwd(), '..', 'debug-dump-log')),
 
     Package::composer()
+        ->path(Path::join(getcwd(), '..', 'php-settings')),
+
+    Package::composer()
         ->path(Path::join(getcwd(), '..', 'package-manager'))
 ];
